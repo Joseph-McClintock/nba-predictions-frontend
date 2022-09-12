@@ -1,0 +1,16 @@
+.scatterplot-container {
+    height: 40vh;
+    width: 40vw;
+}
+
+@media (max-width: 1300px) {
+    .scatterplot-container {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .scatterplot-container {
+        width: 90vw;
+    }
+}

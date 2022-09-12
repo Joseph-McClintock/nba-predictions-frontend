@@ -1,0 +1,16 @@
+.piechart-container {
+    height: 40vh;
+    width: 25vw;
+}
+
+@media (max-width: 1300px) {
+    .piechart-container {
+        width:30vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .piechart-container {
+        width:90vw;
+    }
+}

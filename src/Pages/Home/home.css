@@ -1,0 +1,35 @@
+.intro-container {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.season-selection-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.sim-button {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+}
+.charts {
+    max-width: 1400px;
+    display: flex;
+    background-color: rgb(210, 213, 216);
+    border: solid;
+    border-color: rgb(200, 203, 206);
+}
+
+
+@media (max-width: 800px) {
+    .charts {
+        flex-direction: column;
+    }
+}
